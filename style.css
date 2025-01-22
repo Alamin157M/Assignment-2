@@ -449,7 +449,7 @@ header {
 /* Hero Section End */
 
 /* Footer Style Start */
-.footer { 
+.footer {
   margin: 0 auto;
   height: 519px;
   width: 1140px;
@@ -505,7 +505,6 @@ header {
   font-weight: bold;
   margin-bottom: 30px;
 }
-
 /* Footer Style End */
 
 /* Responsive Style For Mobile */
@@ -548,13 +547,53 @@ header {
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 725px;
+    height: 700px;
     width: 357px;
   }
   .banner-image img {
-    height: 413px;
     width: 336.58px;
     align-items: center;
     justify-content: center;
+  }
+  .standard-section {
+    margin-top: 300px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .standard-section h1 {
+    margin-left: -450px;
+  }
+  .standard-section .card {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .arrow-icon {
+    display: none;
+  }
+  .hero-section {
+    margin-top: 900px;
+  }
+  .main-card {
+    display: none;
+  }
+  .four-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .hero-section h1 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: -450px;
+  }
+  .main-button {
+    margin-left: -450px;
+  }
+  .footer {
+    height: 742px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 150px;
   }
 }
