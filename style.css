@@ -430,9 +430,81 @@ header {
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
 }
-
+.main-button {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+.main-btn {
+  color: #ffffff;
+  height: 50px;
+  width: 197px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 12px;
+  background-color: #000000;
+}
 /* Hero Section End */
+
 /* Footer Style Start */
+.footer { 
+  margin: 0 auto;
+  height: 519px;
+  width: 1140px;
+  justify-content: center;
+  align-items: center;
+  background-color: #01acfd;
+  padding: 124px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.logo-img {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.logo-img img {
+  height: 81.65px;
+  width: 82.9px;
+  background: linear-gradient(white, #f0a80009);
+}
+.logo-img h1 {
+  width: 206.11px;
+  color: white;
+  font-size: 42px;
+  font-weight: bold;
+}
+.p {
+  width: 399.02px;
+  color: white;
+  font-size: 20px;
+  font-weight: normal;
+  opacity: 0.7;
+}
+.list {
+  color: white;
+}
+.list h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.list ul {
+  list-style: none;
+}
+.list li {
+  margin-top: 20px;
+}
+.social {
+  color: white;
+  margin-top: -120px;
+}
+.social h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
 
 /* Footer Style End */
 
